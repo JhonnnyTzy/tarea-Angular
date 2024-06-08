@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #007aff; /* Azul típico de iOS */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    color: #ffd700 !important; /* Amarillo dorado */
+}
+
+.nav-link.active {
+    background-color: #0056b3;
+    border-radius: 0.25rem;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Cambia el color del icono a blanco */
+}
+
+.dropdown-menu {
+    background-color: #ffffff; /* Fondo blanco para el menú desplegable */
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item {
+    color: #007aff;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+    color: #0056b3;
+}

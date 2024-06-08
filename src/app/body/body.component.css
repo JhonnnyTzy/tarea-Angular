@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    max-height: 200px; /* Ajusta la altura máxima de las imágenes */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+    object-fit: cover; /* Recorta la imagen para que se ajuste a las dimensiones */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.placeholder-glow {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.placeholder {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.placeholder.col-6 {
+    width: 60%;
+    height: 20px;
+}
+
+.placeholder.col-7 {
+    width: 70%;
+    height: 20px;
+}
+
+.placeholder.col-4 {
+    width: 40%;
+    height: 20px;
+}
+
+.placeholder.col-8 {
+    width: 80%;
+    height: 20px;
+}
+
+.placeholder.disabled {
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
